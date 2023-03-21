@@ -6,10 +6,7 @@ import org.springframework.web.bind.annotation.RestController
 
 @RestController
 @RequestMapping
-class TestController(
-
-) {
-
+class TestController() {
     @GetMapping("/data")
     fun getData(): String {
         return "getData"
